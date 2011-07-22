@@ -1,0 +1,14 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red196\green26\blue22;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab560
+\pard\tx560\pardeftab560\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf2 \CocoaLigature0 Usage: java com.web.tools.WebMinifier <sourceDir> [<targetDir>]\
+\
+sourceDir - Path of the source directory which has to be recursively minified.This entry can be a .htm / .css file.\
+\
+targetDir - Path of the target directory for copying the minified content.This entry can be a .htm / .css file.If not provided, the source directory is overwritten with the minified content.However, the source directory is copied as sourceDirectory_ori directory,before the minified content is written. This entry can be a .htm / .css file.\
+\
+Enjoy !!.}
