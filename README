@@ -1,6 +1,9 @@
-Usage: java com.web.tools.WebMinifier <sourceDir> [<targetDir>]
+Usage: 
+java -jar dist/webminifier.jar <sourceDir> [<targetDir>]
 
-sourceDir - Path of the source directory which has to be recursively minified.This entry can be a .htm / .css file.\\
+java com.web.tools.WebMinifier <sourceDir> [<targetDir>]
+
+sourceDir - Path of the source directory which has to be recursively minified.This entry can be a .htm / .css file.
 targetDir - Path of the target directory for copying the minified content.This entry can be a .htm / .css file.If not provided, the source directory is overwritten with the minified content.However, the source directory is copied as sourceDirectory_ori directory,before the minified content is written. This entry can be a .htm / .css file.
 
 Enjoy !!
